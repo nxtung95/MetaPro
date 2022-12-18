@@ -1,0 +1,29 @@
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+#home li a {
+  color: lightslategray;
+  transition: 0.3s;
+}
+
+#home ul li a:hover {
+  color: black;
+  background-color: #ddd;
+}
+
+/*.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}*/

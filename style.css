@@ -1,3 +1,8 @@
+body {
+  font-family: Avenir Light;
+}
+
+
 /* Style buttons */
 .btn {
   background-color: DodgerBlue;
@@ -7,9 +12,19 @@
   font-size: 15px;
 }
 
+.btn.connect-now {
+  background-color: white;
+  color: black;
+}
+
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: RoyalBlue;
+}
+
+.btn.last-connect-now:hover {
+  background-color: RoyalBlue;
+  color: white;
 }
 
 #home li a {
@@ -22,8 +37,6 @@
   background-color: #ddd;
 }
 
-/*.header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}*/
+.faq h5 {
+  font-weight: bold;
+}

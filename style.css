@@ -15,6 +15,7 @@ body {
 .btn.connect-now {
   background-color: white;
   color: black;
+  border-color: gray;
 }
 
 /* Darker background on mouse-over */
@@ -42,9 +43,16 @@ body {
 }
 
 .circle {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+
+  /* fill the container, preserving aspect ratio, and cropping to fit */
+  background-size: cover;
+
+  /* center the image vertically and horizontally */
+  background-position: top center;
+
 }
 
 .title-zoom:hover {
@@ -241,7 +249,7 @@ body {
 @-webkit-keyframes moveUp {
   0% {
     opacity: 1;
-    -webkit-transform: translateY(50px);
+    -webkit-transform: translateY(100px);
   } 100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -251,7 +259,7 @@ body {
 @-moz-keyframes moveUp {
   0% {
     opacity: 1;
-    -moz-transform: translateY(50px);
+    -moz-transform: translateY(100px);
   }
 
   100% {
@@ -263,7 +271,7 @@ body {
 @-o-keyframes moveUp {
   0% {
     opacity: 1;
-    -o-transform: translateY(50px);
+    -o-transform: translateY(100px);
   }
 
   100% {
@@ -275,7 +283,7 @@ body {
 @keyframes moveUp {
   0% {
     opacity: 1;
-    transform: translateY(50px);
+    transform: translateY(100px);
   }
 
   100% {
